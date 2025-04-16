@@ -64,11 +64,12 @@ class Program
 // GameController Class
 public class GameController
 {
+    private const int Rows = 4;
+    private const int Columns = 4;
     private char[,] board;
     private Player player1;
     private Player player2;
-    private int rows = 4;
-    private int columns = 4;
+    private Player currentPlayer; // Track whose turn it is
 
     public GameController(Player p1, Player p2)
     {
@@ -139,5 +140,75 @@ public class GameController
         Console.WriteLine("  1   2   3   4");
     }
 
-    
+    private bool PlaceDisc(char marker, int column)
+    {
+        if (column < 0 || column >= columns)
+        {
+            return false; // Invalid column
+        }
+
+        for (int i = rows - 1; i >= 0; i--)
+        {
+            if (board[i, column] == ' ')
+            {
+                board[i, column] = marker;
+                return true;
+            }
+        }
+        return false; // Column is full
+    }
+
+    private bool CheckWin(char marker)
+    {
+        // Horizontal, vertical, and diagonal checks
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < columns; j++)
+            {
+                if (j + 3 < columns &&
+                    board[i, j] == marker && board[i, j + 1] == marker &&
+                    board[i, j + 2] == marker && board[i, j + 3] == marker)
+                {
+                    return true;
+                }
+
+                if (i + 3 < rows &&
+                    board[i, j] == marker && board[i + 1, j] == marker &&
+                    board[i + 2, j] == marker && board[i + 3, j] == marker)
+                {
+                    return true;
+                }
+
+                if (i + 3 < rows && j + 3 < columns &&
+                    board[i, j] == marker && board[i + 1, j + 1] == marker &&
+                    board[i + 2, j + 2] == marker && board[i + 3, j + 3] == marker)
+                {
+                    return true;
+                }
+
+                if (i - 3 >= 0 && j + 3 < columns &&
+                    board[i, j] == marker && board[i - 1, j + 1] == marker &&
+                    board[i - 2, j + 2] == marker && board[i - 3, j + 3] == marker)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    private bool IsBoardFull()
+    {
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < columns; j++)
+            {
+                if (board[i, j] == ' ')
+                {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
 }

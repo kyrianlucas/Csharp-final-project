@@ -14,24 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Documents\\C#\\Connect 4\\Connect 4\\Program.cs",
               "RelativeDocumentMoniker": "Connect 4\\Program.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\C#\\Connect 4\\Connect 4\\Program.cs*",
-              "RelativeToolTip": "Connect 4\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA5AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\USER\\Documents\\C#\\Connect 4\\Connect 4\\Program.cs",
+              "RelativeToolTip": "Connect 4\\Program.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAmwAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T15:28:03.194Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
