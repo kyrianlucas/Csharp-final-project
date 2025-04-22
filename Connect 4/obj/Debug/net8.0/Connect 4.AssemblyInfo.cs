@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Connect 4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+381a608c46e2f9e83b385d6731f3fe049ac6a1fc")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d92392dc06b351a01bc42702f7b236a948760013")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("Connect 4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Connect 4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

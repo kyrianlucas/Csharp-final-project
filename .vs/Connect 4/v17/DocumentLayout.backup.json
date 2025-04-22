@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\C#\\Connect 4\\",
+  "WorkspaceRootPath": "C:\\Users\\krees\\OneDrive - Bow Valley College\\Documents\\GitHub\\Csharp-final-project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A9176CE-F0B5-4A65-B8F7-C061C25FA69A}|Connect 4\\Connect 4.csproj|c:\\users\\user\\documents\\c#\\connect 4\\connect 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A9176CE-F0B5-4A65-B8F7-C061C25FA69A}|Connect 4\\Connect 4.csproj|c:\\users\\krees\\onedrive - bow valley college\\documents\\github\\csharp-final-project\\connect 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A9176CE-F0B5-4A65-B8F7-C061C25FA69A}|Connect 4\\Connect 4.csproj|solutionrelative:connect 4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,21 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\C#\\Connect 4\\Connect 4\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\krees\\OneDrive - Bow Valley College\\Documents\\GitHub\\Csharp-final-project\\Connect 4\\Program.cs",
               "RelativeDocumentMoniker": "Connect 4\\Program.cs",
+<<<<<<< Updated upstream
               "ToolTip": "C:\\Users\\USER\\Documents\\C#\\Connect 4\\Connect 4\\Program.cs*",
               "RelativeToolTip": "Connect 4\\Program.cs*",
               "ViewState": "AgIAADMBAAAAAAAAAAAkwDABAAAFAAAAAAAAAA==",
+=======
+              "ToolTip": "C:\\Users\\krees\\OneDrive - Bow Valley College\\Documents\\GitHub\\Csharp-final-project\\Connect 4\\Program.cs",
+              "RelativeToolTip": "Connect 4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAAcAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T15:28:03.194Z",
               "EditorCaption": ""
